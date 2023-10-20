@@ -1,0 +1,380 @@
+/* HEIGHT 100% */
+html,
+body {
+  height: 100%;
+}
+
+.bloco {
+  min-height: 100%;
+  padding-top: 94px;
+}
+
+/* COLORS */
+.blue-logo {
+  background-color: #0068a2;
+}
+
+/* LOGO */
+.logo_text {
+  font-size: 0;
+  margin: 0;
+}
+
+.logo_img {
+  width: 100px;
+  margin-top: 15px;
+}
+
+/* MENU */
+.navbar {
+  background-color: transparent;
+  transition: background 0.5s linear;
+}
+
+.navbar ul a:hover {
+  background-color: transparent;
+  color: #2dc7d0;
+}
+
+.nav-color {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background 0.5s linear;
+}
+
+/* HOME */
+.home {
+  animation: mudarbg 20s infinite;
+  background-image: url('../img/boninasss.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-home{
+  max-width: 250px; 
+  padding-top: 20px;
+  width: auto;
+  height: auto;
+}
+
+
+.banner h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: -35px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: -15px;
+}
+
+/* HOME - ANIMATION */
+@keyframes mudarbg {
+  40% {
+    background-image: url('../img/boninasss.jpg');
+  }
+
+  80% {
+    background-image: url('../img/bobina.jpg');
+  }
+
+  100% {
+    background-image: url('../img/pp.jpg');
+  }
+}
+
+
+/* TITULO E PARAGRAFO */
+.titulo {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.titulo::after {
+  content: '';
+  display: block;
+  width: 100px;
+  border-top: 1px solid #2dc7d0;
+  margin: 15px auto;
+}
+
+.paragrafo {
+  line-height: 1.8rem;
+}
+
+/* SOBRE */
+.sobre {
+  background-image: url('../img/textura1.png')
+}
+
+.sobre p {
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.sobre .orcamento {
+  padding: 20px 0;
+  margin-top: 35px;
+}
+
+.sobre .orcamento .icon {
+  color: #fff;
+}
+
+.sobre .orcamento h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sobre .orcamento p {
+  color: #fff;
+  text-align: center;
+}
+
+.orcamento button{
+  background-color: #f4c296;
+  color: #fff;
+  border: 1px;
+  border-color: #fff;
+  border-radius: 48px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+.orcamento button:hover{
+  background-color: #f5821f;
+  color: #fff;
+  border: none;
+  border-radius: 48px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* SERVIÇOS */
+.servicos {
+  background-image: url('../img/textura2.png');
+}
+
+.servicos .btn-horario {
+  padding-bottom: 20px;
+}
+
+/* UNIDADES */
+.unidades {
+  background-image: url('../img/bg-unidades.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.unidades article p {
+  line-height: 1.8rem;
+}
+
+/* CONTATO */
+.contato {
+  background-image: url('../img/textura1.png');
+}
+
+.contato h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.contato .mapa {
+  min-height: 560px;
+}
+
+.contato .mapa iframe {
+  width: 100%;
+  min-height: 560px;
+  border: none;
+}
+
+.contato .informacoes {
+  background-image: url('../img/textura2.png');
+  min-height: 560px;
+  padding: 30px;
+}
+
+.contato .formulario {
+  min-height: 560px;
+  padding: 30px;
+}
+
+/* DEPOIMENTOS */
+.depoimentos .titulo::after {
+  border-color: #fff;
+}
+
+.depoimentos img {
+  width: 100px;
+}
+
+.depoimentos h4 {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+a button{
+  background-color: #e3e3e3;
+  color: #f5821f;
+  border: none;
+  border-radius: 48px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+a button:hover{
+  background-color: #0068a2;
+  color: #f1ae72;
+  border: none;
+  border-radius: 48px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* RODAPE */
+.rodape {
+  background-image: url('../img/bg-rodape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+}
+
+.navbar-fixed {
+  position: absolute;
+  height: 94px;
+}
+
+nav,
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons,
+nav a.button-collapse i {
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav {
+  background: url('../img/textura2.png');
+}
+
+.side-nav li>a {
+  color: #fff;
+  font-weight: 100;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.tabs {
+  background-color: #222;
+}
+
+.tabs .tab a {
+  color: #fff;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  color: #2dc7d0;
+}
+
+.tabs .indicator {
+  background-color: #2dc7d0;
+}
+
+body::-webkit-scrollbar {
+  width: 9px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #0068a2;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0068a2;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #f5821f;  /* creates padding around scroll thumb */
+}
+
+/* MEDIA */
+@media only screen and (max-width: 480px) {
+  .card-image-horizontal {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .banner {
+    padding-top: 4.5rem;
+  }
+
+  .banner h2 {
+    font-size: 4rem;
+    
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  .img-home{
+    max-width: 20rem; 
+    padding-top: 2rem;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .banner {
+    padding-top: 5rem;
+  }
+
+  .banner h2 {
+    font-size: 5rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .img-home{
+    max-width: 50rem; 
+    padding-top: 4rem;
+    width: auto;
+    height: auto;
+  }
+}
