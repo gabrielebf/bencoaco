@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BencoAço</title>
+    <link rel="icon" href="img/fav.png">
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- MATERIALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+    <header>
+        <!-- MENU MOBILE -->
+        <ul class="side-nav" id="menu-mobile">
+            <li><a class="hide-menu" href="#home">Home</a></li>
+            <li><a class="hide-menu" href="#sobre">Sobre</a></li>
+            <li><a class="hide-menu" href="#servicos">Serviços</a></li>
+            <li><a class="hide-menu" href="#unidades">Unidades</a></li>
+            <li><a class="hide-menu" href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo_text">BencoAço</h1>
+                    <a href=""><img class="logo_img" src="img/logo.png" alt="BencoAço"></a>
+
+                    <ul class="right light hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#unidades">Unidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+
+                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i
+                            class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home bloco scrollspy" id="home">
+        <div class="row container banner">
+            <div class="col s12 center">
+                <h2 class="white-text">As melhores bobinas de aço você encontra aqui</h2>
+                <p class="white-text light">Bobinas de aço galvanizadas, galvalumes e pré-printadas.</p>
+                <div class="row">
+                    <a href="#orcamento" class="btn btn-large blue-logo"> Orçamento </a>
+                    <a href="#contato" class="btn btn-large orange black-text"> Contato </a>
+                </div>
+                <br>
+                <img src="img/logo.png" class="img-home">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre bloco scrollspy" id="sobre">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo">Sobre nós</h2>
+            </div>
+
+            <div class="col s12 l6">
+                <p class="light">
+                    A Benco Aço é uma distribuidora independente de produtos siderúrgicos no Brasil e tem como
+                    diferencial,
+                    em seus produtos e serviços, a utilização das melhores tecnologias de gestão e produção, contando
+                    também
+                    com uma equipe experiente para lhe atender.
+                </p>
+            </div>
+
+            <div class="col s12 l6">
+                <div class="carousel carousel-slider" data-indicators="true">
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-01.jpg">
+                    </a>
+
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-02.jpg">
+                    </a>
+
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-03.jpg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--ORÇAMENTO-->
+        <div class="row blue-logo orcamento" id="orcamento">
+            <div class="container">
+                <div class="col s12 center">
+                    <h2 class="light white-text titulo">Orçamentos</h2>
+                    <p class="light paragrafo white-text"> Entre em contato com uma das nossas vendedoras para poder
+                        cotar e realizar sua compra.<br> Aguardamos seu contato.</p><br>
+
+                    <a href="https://api.whatsapp.com/send?phone=5518998210373&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                        target="_blank" class="light"><button class="fa fa-whatsapp" style="font-size: 20px;"> Entre em
+                            contato com o nosso comercial</button></a><br>
+                </div>
+                <br>
+
+
+                <!-- <article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">person</i></span>
+    				<h3 class="light">Telma</h3>
+    				 <a href="https://api.whatsapp.com/send?phone=5518998210373&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank" class="light"><span class="fa fa-whatsapp" style="font-size: 20px;"><br>Entre em contato</span></a><br>
+    			</article>
+                
+    			<article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">person</i></span>
+    				<h3 class="light">Mariana</h3>
+    				 <a href="https://api.whatsapp.com/send?phone=5518997527204&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank" class="light"><span class="fa fa-whatsapp" style="font-size: 20px;"><br>Entre em contato</span></a><br>
+    			</article>
+                
+    			<article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">person</i></span>
+    				<h3 class="light">Tatiana</h3>
+    				 <a href="https://api.whatsapp.com/send?phone=5518988097391&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank" class="light"><span class="fa fa-whatsapp" style="font-size: 20px;"><br>Entre em contato</span></a><br>
+    			</article> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos bloco scrollspy" id="servicos">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo white-text"> Serviços </h2>
+                <p class="light paragrafo white-text"> A bobina de aço é um grande rolo metálico usado para as mais
+                    variadas finalidades. Inclusive, essas chapas são imprescindíveis para a confecção de uma expressiva
+                    parcela de produtos, além de ser usada em vários tipos de indústrias.</p>
+            </div>
+        </div>
+
+        <div class="row container">
+            <!-- Galvalume -->
+            <article class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/bobinas2.jpg" alt="galvalume" class="materialboxed">
+                        <a href="#galvalume-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"> Galvalume </h3>
+                        <p class="light">é um material revestido com liga composta por alumínio, zinco e silício</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- MODAL Galvalume -->
+            <div class="modal" id="galvalume-modal">
+                <div class="modal-content">
+                    <h5 class="light"> O que é Galvalume? </h5>
+                    <p class="light black-text">é um material revestido com liga composta por alumínio(55%),
+                        zinco(43,4%) e silício(1,6%), esse material tem excelente proteção contra corrosão atmosférica,
+                        resultante da combinação entre o alumínio e zinco. Devido a sua refletividade gera maior
+                        eficiência térmica e alta resistência ao calor sem sofrer perdas de proteção, brilho e
+                        coloração.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+            <!-- Galvanizada -->
+            <article class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/banner-02.jpg" alt="Galvanizada" class="materialboxed">
+                        <a href="#galvanizada-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"> Galvanizada </h3>
+                        <p class="light"> Galvanizada também é conhecida como chapa zincada... </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- MODAL Galvanizada -->
+            <div class="modal" id="galvanizada-modal">
+                <div class="modal-content">
+                    <h5 class="light"> O que é Bobina Galvanizada? </h5>
+                    <p class="light black-text"> é uma chapa fina de aço que recebe um banho de zinco para deixá-la mais
+                        resistente à corrosão - é o mesmo material utilizado na fabricação de telhas zincadas de galpão.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+
+            <!-- Pré-Pintada -->
+            <article class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/banner-03.jpg" alt="Pré-Pintada" class="materialboxed">
+                        <a href="#pp-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"> Pré-Pintada </h3>
+                        <p class="light"> Pré-Pintada também é conhecida como chapa zincada... </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- MODAL Pré-Pintada -->
+            <div class="modal" id="pp-modal">
+                <div class="modal-content">
+                    <h5 class="light"> O que é Bobina Pré-Pintada? </h5>
+                    <p class="light black-text">é produzido através da tecnologia de coil coating que garante superior
+                        performance do material como consequência do excelente processo de pré-tratamento antes da
+                        pintura e da uniformidade das camadas de tinta aplicadas.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+
+
+            <!-- BOTÃO QUADRO DE HORÁRIOS -->
+            <!-- <div class="row center btn-horario">
+                <a href="#horarios-modal" class="btn btn-large blue-logo modal-trigger"><i class="material-icons left">timer</i> Quadro de horários </a>
+            </div>-->
+
+            <!-- MODAL QUADRO DE HORÁRIOS
+            <div class="modal" id="horarios-modal">
+                <div class="modal-content">
+                    <h5 class="light">Pré-Pintadas</h5>
+
+                    <ul class="tabs">
+                        <li class="tab col s3"><a class="active" href="#tabela">Pilates</a></li>
+                    </ul>-->
+
+            <!-- TABELA
+                    <table class="striped responsive-table" id="tabela">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>                            
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>7:22 às 12:00</td> 
+                                <td><img src="img/img/2023-08-10/IMG_20230809_091542486.jpg"></td>
+                                <td><img src="img/img/2023-08-10/IMG_20230809_091527484.jpg"></td>
+                                <td><img src="img/img/2023-08-10/IMG_20230809_091542486.jpg"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>                               
+                            </tr> 
+
+                            <tr>
+                                <td>12:00 às 17:30</td> 
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>                               
+                            </tr>                           
+                        </tbody>                        
+                    </table>
+
+
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <!-- UNIDADES -->
+    <section class="unidades bloco scrollspy" id="unidades">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo black-text"> Unidades </h2>
+                <p class="light paragrafo black-text"> A BencoAço possui a matriz em Bataguassu-MS, mas o escritório
+                    encontra-se em Assis-SP.</p>
+            </div>
+        </div>
+
+        <div class="row container">
+            <!-- Bataguassu -->
+            <article class="col s12 l6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/btg.jpg" alt="Bataguassu">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Bataguassu-MS</h3>
+                            <p class="light">
+                                <i class="material-icons left">phone</i>(18) 3302-8100 <br>
+                                <i class="material-icons left">location_on</i>Rodovia BR 267 - km 35 s/n
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Assis -->
+            <article class="col s12 l6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/frente.jpeg" alt="Assis">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Assis-SP</h3>
+                            <p class="light">
+                                <i class="material-icons left">phone</i>(18) 3302-8100 <br>
+                                <i class="material-icons left">location_on</i>R. Quinze de Novembro, 574
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Araquari -->
+            <article class="col s12 l6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/sc.jpeg" alt="Araquari">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Araquari-SC</h3>
+                            <p class="light">
+                                <i class="material-icons left">phone</i>(18) 3302-8100 <br>
+                                <i class="material-icons left">location_on</i>Rod. Duque de Caxias, 3482-3481
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Pinheiral -->
+            <article class="col s12 l6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/rj.jpeg" alt="Pinheiral">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Pinheiral-RJ</h3>
+                            <p class="light">
+                                <i class="material-icons left">phone</i>(18) 3302-8100 <br>
+                                <i class="material-icons left">location_on</i>Av. Ipanema, 123
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato bloco scrollspy" id="contato">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="titulo light black-text"> Contato </h2>
+            </div>
+
+            <div class="col s12 m6 l4 hide-on-med-only ">
+                <div class="mapa transparent">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.7586772878876!2d-50.41725792469679!3d-22.662784479427568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9495391fc7918495%3A0x4f1796791fd3f23e!2sBenco%20A%C3%A7o!5e0!3m2!1spt-BR!2sbr!4v1696855703705!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="informacoes white-text">
+                    <h4> Redes sociais </h4>
+                    <p class="light"> Entre em contato para orçamento </p>
+                    <a href="https://www.linkedin.com/company/bencoaco" target="_blank"
+                        class="btn-floating blue-logo"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="btn-floating blue-logo"><i class="fa fa-instagram"></i></a>
+
+                    <h4> Endereço </h4>
+                    <p class="light"> R. Quinze de Novembro, 574, Assis-SP</p>
+
+                    <h4> Contatos </h4>
+                    <p class="light">
+                        Fixo: (18) 3302-8100 <br><br>
+                        <a href="https://api.whatsapp.com/send?phone=5518998210373&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank"><span class="fa fa-whatsapp"> Consultora Telma</span></a><br><br>
+                        <a href="https://api.whatsapp.com/send?phone=5518997527204&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank"><span class="fa fa-whatsapp"> Consultora Mariana</span></a><br><br>
+                        <a href="https://api.whatsapp.com/send?phone=5518988097391&text=Olá,%20vim%20do%20site.%20Gostaria%20de%20fazer%20um%20orçamento%20%F0%9F%98%8A%F0%9F%98%8A"
+                            target="_blank"><span class="fa fa-whatsapp"> Consultora Tatiana</span></a>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="formulario white black-text">
+                    <h4> Trabalhe conosco </h4>
+                    <p class="light paragrafo black-text" style="justify-content: justify;"> Envie um e-mail se
+                        apresentando e anexando seu currículo para nós no e-mail:<br> <br>
+                        <strong>elisangela.dornelas@bencoaco.com.br</strong><br><br>
+                        <a
+                            href="mailto:elisangela.dornelas@bencoaco.com.br?subject=Currículo&cc=gabriele.figueiredo@bencoaco.com.br"><button>Enviar
+                                e-mail</button></a>
+                    </p>
+                    <!--<form action="enviar-email.php" method="post" enctype="multipart/form-data">
+
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Seu nome</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="email" name="email" id="email">
+                            <label for="email">Seu email</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" name="subject" id="subject">
+                            <label for="subject">Assunto</label>
+                        </div>
+
+                       <div class="input-field">
+                            <label for="arquivo">Selecione um arquivo para enviar:</label><br><br>
+                            <input type="file" name="arquivo" id="arquivo">
+                        </div>   <button class="btn blue-logo" type="submit"> Enviar </button>
+                     
+
+                    </form>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="row container center">
+            <img src="img/logobenco.jpg" class="logo_img">
+            <p class="light black-text">© BencoAço 2023 - Todos os direitos reservados </p>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- MATERIALIZE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        
+        // INICIALIZAÇÃO 
+        $(document).ready(function () {
+            // MENU MOBILE
+            $(".button-collapse").sideNav();
+            // LINK INTERNO
+            $(".scrollspy").scrollSpy({
+                scrollOffset: 0
+            });
+            // CAROUSEL
+            $(".carousel.carousel-slider").carousel({
+                fullWidth: true
+            });
+            // MODAL
+            $(".modal").modal();
+            // TABS
+            $("ul.tabs").tabs();
+            // ESCONDER MENU AO CLICAR
+            $(".hide-menu").click(function () {
+                $(".button-collapse").sideNav("hide");
+            });
+            // AUTOPLAY
+            function autoplay() {
+                $(".carousel").carousel("next");
+                setTimeout(autoplay, 4500);
+            }
+
+            autoplay();
+
+        });
+        // ADICIONANDO NAVCOLOR
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+        });
+        Response.Redirect("https://bencoaco.com.br/");
+    </script>
+
+
+</body>
+
+</html>
